@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" /> <!-- Declare telephony feature as not required -->
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Smile_V1"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".DepressionQuestionrecommendationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DepressionQuestionresultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DepressionQuestionendActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DepressionQuestionnineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DepressionQuestioneightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DepressionQuestionsevenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DepressionQuestionsixActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DepressionQuestionfiveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DepressionQuestionfourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DepressionQuestionthreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DepressionQuestiontwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DepressionQuestiononeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DepressiontestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavigationActivity"
+            android:exported="true">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+
+        </activity>
+        <activity
+            android:name=".BreathingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MeditationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HotlineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Win"
+            android:exported="false" />
+        <activity
+            android:name=".Gameover"
+            android:exported="false" />
+        <activity
+            android:name=".GameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true" />
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivitiesActivity"
+            android:exported="true">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".CounsilorWelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CounsilorLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chat.Chat"
+            android:exported="false" />
+        <activity
+            android:name=".CounsilorChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChatWelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PredictionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResultsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EndQuestionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionSevenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionSixActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionFiveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionFourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionThreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionTwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionOneActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AnxitytestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="true">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="true">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+             <intent-filter>
+             <action android:name="android.intent.action.MAIN" />
+
+
+             <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PredictionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/anx_recommendation" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Recommendation"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtRecommendation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seeking immediate professional support is crucial. Please connect with a university counselor via the chat option in this mobile application. Alternatively, call the 1333 hotline, a 24/7 service available to support you anytime...!"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="40dp"
+            android:background="#bdeaf5"
+            android:padding="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textColor="#575a5b"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnActivities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go to Activities"
+            android:background="@drawable/green_btn"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:background="#00000000"
+            android:paddingTop="10dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:paddingBottom="10dp"
+            android:layout_marginBottom="30dp"/>
+    </LinearLayout>
+
+</ScrollView>

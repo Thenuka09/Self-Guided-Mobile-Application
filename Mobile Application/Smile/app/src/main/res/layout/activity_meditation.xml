@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MeditationActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/splash_screen_blue"
+            android:padding="16dp"
+            android:text="5-Minute Breathing Meditation"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFC1C1"
+            android:padding="16dp"
+            android:text="1) Appreciate your time. Take a few moments to congratulate yourself that you are taking some time for meditation."
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFDAB9"
+            android:padding="16dp"
+            android:text="2) Become aware of your breath. Now bring awareness to the breath in the abdomen or belly, breathing normally and naturally."
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFACD"
+            android:padding="16dp"
+            android:text="3) Stay with your breath. As you breathe in, be aware of breathing in; as you breathe out, be aware of breathing out. If it is helpful, place your hands on your belly to feel it expand with each inhalation and contract with each exhalation. Simply maintaining this awareness of the breath, breathing in and breathing out."
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E6E6FA"
+            android:padding="16dp"
+            android:text="4) Just be. There’s no need to visualize, count, or figure out the breath. Just being mindful of breathing in and out. Without judgment, just watching, feeling, experiencing the breath as it ebbs and flows."
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#B0E0E6"
+            android:padding="16dp"
+            android:text="5) Feel what your body is doing naturally. As you breathe in, feel the abdomen or belly expand or rise like a balloon inflating, then feel it receding or deflating or falling on the exhalation. Just riding the waves of the breath, moment by moment."
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#AFEEEE"
+            android:padding="16dp"
+            android:text="6) Acknowledge your wandering mind. From time to time, you may notice that your attention has wandered from the breath. When you notice this, just acknowledge that your mind wandered and acknowledge where it went, and then bring your attention gently back to the breath."
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#98FB98"
+            android:padding="16dp"
+            android:text="7) Be where you are. Remember, there is no other place to go, nothing else you need to do, and no one you have to be right now. Just breathing in and breathing out."
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D8BFD8"
+            android:padding="16dp"
+            android:text="8) Acknowledge your time. As you come to the end of this meditation, congratulate yourself that you took this time to be present and that you are directly cultivating inner resources for healing and well-being. Let us take a moment to end this meditation with the wish ‘May all beings be at peace.’"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/backActivityBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go to Activities"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/blue_btn"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:padding="15dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

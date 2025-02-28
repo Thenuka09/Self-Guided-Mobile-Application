@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "239374335039",
+    "project_id": "chatapplication-7455c",
+    "storage_bucket": "chatapplication-7455c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239374335039:android:60383bc83c8124e9078c8a",
+        "android_client_info": {
+          "package_name": "com.example.smile_v1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTutrj9v7i21HfrMvV_ihsVWb9eDb9MKY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

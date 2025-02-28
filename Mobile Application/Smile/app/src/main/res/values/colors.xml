@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="splash_screen_blue">#0097b2</color>
+    <color name="gray">#FFDAD8E1</color>
+    <color name="dark_blue"> #282e78</color>
+    <color name="green">#27b466</color>
+    <color name="purple">#969cce</color>
+    <color name="red">#cd1f44</color>
+    <color name="dark_purple">#9f3796</color>
+    <color name="orange">#f8901f</color>
+    <color name="transparant">#00000000</color>
+    <color name="dark_orange">#9F6137</color>
+    <color name="dark_yellow">#f38a05</color>
+    <color name="background">#fdd6a5</color>
+    <color name="hotlineBackground">#dcc171</color>
+    <color name="hotlinetext">#0c6666</color>
+    <color name="hotlinebtn">#ffd627</color>
+    <color name="white_gray">#F2F1F6</color>
+
+</resources>

@@ -1,0 +1,163 @@
+/* General improvements */
+:root {
+    --black: #333;
+    --green: #0097b2;
+    --gray: #f5f5f5;
+    --dark-gray: #555;
+    --light-green: #34c759;
+}
+
+/* Start admin login section */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.formLoginSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.formLoginSection .login {
+    width: 400px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.formLoginSection .login .formLogin {
+    width: 100%;
+}
+
+.formLoginSection .login .formLogin .errorMessage {
+    background: red;
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.formLoginSection .login .formLogin .successMessage {
+    background: var(--light-green);
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.formLoginSection .login .formLogin .loginFieldset {
+    border-radius: 8px;
+    border: 2px solid var(--dark-gray);
+    padding: 30px;
+    background: var(--gray);
+}
+
+.formLoginSection .login .formLogin .loginFieldset legend h1 {
+    font-size: 2rem;
+    color: var(--black);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.loginAsMain a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    border: 3px solid #3ddf28;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: white;
+    font-weight: 510;
+    
+}
+
+.formLoginSection .login .formLogin .loginFieldset .adminLoginInput {
+    margin: 20px 0;
+}
+
+.formLoginSection .login .formLogin .loginFieldset label {
+    font-weight: bold;
+    font-size: 1rem;
+    color: var(--dark-gray);
+}
+
+.formLoginSection .login .formLogin .loginFieldset input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    border: 2px solid var(--dark-gray);
+    background: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+.formLoginSection .login .formLogin .loginFieldset input:focus {
+    border: 2px solid var(--green);
+    outline: none;
+}
+
+.formLoginSection .login .formLogin .loginFieldset p {
+    margin: 15px 0;
+}
+
+.formLoginSection .login .formLogin .loginFieldset .adminLoginSubmitBtn {
+    width: 100%;
+    background: #0097b2;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.formLoginSection .login .formLogin .loginFieldset .adminLoginSubmitBtn:hover {
+    background: #005d6d;
+    letter-spacing: 0.1rem;
+    transform: translateY(-2px);
+}
+
+.formLoginSection .login .formLogin .loginFieldset small {
+    color: red;
+    font-size: 1rem;
+    visibility: hidden;
+}
+
+.formLoginSection .login .formLogin .loginFieldset .adminLoginInput.error small {
+    visibility: visible;
+}
+
+.formLoginSection .login .formLogin .loginFieldset .adminLoginInput.error input {
+    border: 2px solid red;
+}
+
+.formLoginSection .login .formLogin .loginFieldset .adminLoginInput.success input {
+    border: 2px solid var(--green);
+}
+
+@media only screen and (max-width: 768px) {
+    .formLoginSection .login {
+        width: 90%;
+    }
+}
+
+

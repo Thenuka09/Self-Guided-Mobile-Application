@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DepressionQuestiononeActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/dep_que_one" />
+
+        <TextView
+            android:id="@+id/topic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-20dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Question One"
+            android:textColor="@color/black"
+            android:textSize="27sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img" />
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="1) Little interest or pleasure in doing things"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.02"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/topic" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/question" >
+
+            <RadioButton
+                android:id="@+id/rbNotAtAll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Not at all"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="19sp"/>
+
+            <RadioButton
+                android:id="@+id/rbSeveralDays"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Several days"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="19sp"/>
+
+            <RadioButton
+                android:id="@+id/rbMoreThanHlafDays"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="More than half the days"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="19sp"/>
+
+            <RadioButton
+                android:id="@+id/rbNearlyEveryDay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nearly every day"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="19sp"/>
+        </RadioGroup>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+            android:text="Next"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="@drawable/blue_btn"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:fontFamily="@font/poppins_semibold"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Smile_V1</string>
+    <string name="screen1">Anxiety Test</string>
+    <string name="screen2">Depression Test</string>
+    <string name="screen3">Activities</string>
+    <string name="screen4">Chat with Counselor</string>
+    <string name="screen5">24/7 Support</string>
+
+    <string name="screen1desc">Anxiety is a natural reaction to stress, but managing it is key to well-being. Start now to understand and improve your mental health! Discover your anxiety levels with the GAD-7 Questionnaire.</string>
+    <string name="screen2desc">Assess your mental well-being with our PHQ-9 Questionnaire, a reliable tool to measure depression levels. Take the first step toward understanding and improving your emotional health!</string>
+    <string name="screen3desc">Boost your mental well-being with guided meditation, fun games, and calming breathing exercises. These activities are designed to reduce anxiety and help you relax!</string>
+    <string name="screen4desc">Connect with your university counselor for personalized support and guidance. We\'re here to listen and help you navigate your challenges!</string>
+    <string name="screen5desc">Need help? Call the 1333 Hotline for instant support, available 24/7. We\'re here to assist you whenever you need it!</string>
+
+    <string name="startDesc">Start your journey to better mental health with tools to assess anxiety, depression, and relaxation activities. Let\'s begin!</string>
+</resources>

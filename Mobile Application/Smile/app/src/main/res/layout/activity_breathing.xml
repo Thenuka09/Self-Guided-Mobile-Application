@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BreathingActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Topic Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/green"
+            android:padding="16dp"
+            android:text="Lengthen Your Exhale"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <!-- Image Section -->
+<!--        <ImageView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="200dp"-->
+<!--            android:src="@drawable/breathing_image"-->
+<!--            android:contentDescription="Breathing Exercise Image"-->
+<!--            android:scaleType="centerCrop"-->
+<!--            android:layout_marginTop="16dp" />-->
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifImageView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/breathing_rb"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Step 1 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFC1C1"
+            android:padding="16dp"
+            android:text="1) Before you take a big, deep breath, try a thorough exhale instead. Push all the air out of your lungs, then simply let your lungs do their work inhaling air."
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp" />
+
+        <!-- Step 2 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFDAB9"
+            android:padding="16dp"
+            android:text="2) Next, try spending a little bit longer exhaling than you do inhaling. For example, try inhaling for four seconds, then exhale for six."
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp" />
+
+        <!-- Step 3 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFACD"
+            android:padding="16dp"
+            android:text="3) Try doing this for two to five minutes."
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp" />
+
+        <!-- Final Note -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E6E6FA"
+            android:padding="16dp"
+            android:text="This technique can be done in any position that’s comfortable for you, including standing, sitting, or lying down."
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/gotoActivitiesBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go to Activities"
+            android:background="@drawable/green_btn"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_marginTop="18dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
