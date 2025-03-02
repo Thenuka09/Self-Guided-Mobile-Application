@@ -6,6 +6,8 @@
 ## 📝 Project Description
 This mobile application helps to Horizon campus students assess and manage their **mental health**, specifically focusing on **anxiety and depression**. It includes self-assessment tools, counseling interactions, and mental health exercises. A secure **admin panel** allows the main counselor to manage assistant counselors and grant them access to specific students based on their consent.
 
+![Image](https://github.com/user-attachments/assets/d7fadc19-632c-4be6-932f-df384f902c88)
+
 ---
 
 ## 🌟 Features
