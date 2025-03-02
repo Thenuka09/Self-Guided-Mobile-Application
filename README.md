@@ -98,6 +98,39 @@ This mobile application helps to Horizon campus students assess and manage their
 
 ---
 
+## 📷 Screen-Shots
+
+## 👋 Login Section
+![Image](https://github.com/user-attachments/assets/9d42580f-eb31-434a-83df-0aebfcb3b05b)
+
+## 👀 On-Boarding Screens
+![Image](https://github.com/user-attachments/assets/d3ef1b06-2524-4a6f-affe-defdb7bfc600)
+
+
+## 💬 Chat Application
+![Image](https://github.com/user-attachments/assets/e3561dfe-d4c6-4b24-95cd-6dbffcb7fd46)
+
+## 🎮 Activities
+![Image](https://github.com/user-attachments/assets/bc5db353-e12e-4cfd-b70b-e3d741ad93f3)
+
+## 📝 Anxiety Test
+![Image](https://github.com/user-attachments/assets/2df7f681-f89b-45aa-85f0-5b70bd11fc9b)
+
+## 📖 Depression Test
+![Image](https://github.com/user-attachments/assets/103ebb58-133e-49cb-9b88-cb061d18386d)
+
+## 👨 Main Counselor Admin Panel
+![Image](https://github.com/user-attachments/assets/0b8b215d-0eef-4a8d-8bd5-1dff87b3b276)
+![Image](https://github.com/user-attachments/assets/dcfe8ea1-f536-40ff-a73f-a3416361e7ff)
+
+
+## 👨👩 Assistent Counselor Admin Panel
+![Image](https://github.com/user-attachments/assets/9d71e43b-426e-4653-be3b-7bee98067f31)
+
+
+
+---
+
 ## 🙏 Acknowledgments
 - **Android Studio Documentation:** [developer.android.com](https://developer.android.com/develop)
 - **Spring Boot Documentation:** [spring.io](https://spring.io/)
